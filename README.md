@@ -82,7 +82,7 @@ Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)
 
 **Logiciel**
 
-Installation de John-the-ripper
+# <ins>Installation de John-the-ripper<ins>
 
 Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suivantes:
 
