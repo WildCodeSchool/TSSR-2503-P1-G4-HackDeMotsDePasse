@@ -82,6 +82,47 @@ Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)
 
 **Logiciel**
 
+Installation de John-the-ripper
+
+Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suivantes:
+
+   sudo snap install john-the-ripper
+
+Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
+
+  which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
+  cd /snap/bin
+
+pour découvrir l'ensemble du contenu nous ferons "ls" dans le terminal et nous trouverons tous les modules john-the-ripper installés.
+
+Pour activer celui que nous voulons, nous ferons
+
+  ./john-the-ripper.zip2john
+
+Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans le dossier où se trouve notre fichier zip
+
+   cd ..
+   cd ..
+   pwd (pour voir où nous sommes)
+   cd /home/wilder
+
+Une fois dans le dossier en question, nous exécuterons la commande
+
+john-the-ripper.zip2john (fichier.zip) > hash.txt
+
+Vérifier que le hash est bien dans le fichier avec: 
+
+cat hash.txt
+
+et enfin, l'extraire avec
+
+john hash.txt  pour finir
+  
+
+
+
+(En cours d'écriture)
+
 
 # 🧗 Difficultés rencontrées
 <span id="difficultes-rencontrees"></span>
