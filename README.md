@@ -63,12 +63,14 @@ Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y ren
 
   which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
 
-  ![Trouver John-the-ripper](https://github.com/user-attachments/assets/4ab7b878-1d51-4440-8fed-29050b8b8161)
+![Which John-the-ripper](https://github.com/user-attachments/assets/8c335fb0-bedb-4e1f-aded-743b0c377e9a)
+
 
   Se deplacer dans le dossier bin
   
   cd /snap/bin
-
+  
+![Trouver John-the-ripper](https://github.com/user-attachments/assets/4ab7b878-1d51-4440-8fed-29050b8b8161)
  
 pour découvrir l'ensemble du contenu nous ferons "ls" dans le terminal et nous trouverons tous les modules john-the-ripper installés.
 
