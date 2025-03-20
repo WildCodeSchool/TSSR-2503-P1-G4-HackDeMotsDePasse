@@ -6,20 +6,7 @@
 
 Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels.
 
-- # [📜 Introduction](#introduction)
-
-- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse de mots de passe sur un poste client. 
-Ces tests sont exécutés via des VM, une machine serveur et une client.
-
-- # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
-- # [⚙️ Choix Techniques](#choix-techniques)
-- # [🧗Difficultés rencontrées](#difficultes-rencontrees)
-- # [💡 Solutions trouvées](#solutions-trouvees)
-- # [🚀 Améliorations possibles](#ameliorations-possibles)
-
-# 🎯 Présentation du projet
-<span id="presentation-du-projet"></span>
-**Sujet choisi**
+## **<ins>Sujet choisi**<ins>
 
  - Hack de fichiers Zip
  
@@ -50,39 +37,15 @@ On peut le complèter avec des modules additionnels pour qu'il puisse casser des
 
 Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper) 
 
-**Objectifs finaux**
+- # [📜 Introduction](#introduction)
 
+- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse de mots de passe sur un poste client. 
+Ces tests sont exécutés via des VM, une machine serveur et une client.
 
-# 📜 Introduction
-<span id="introduction"></span>
+- # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
+- # [⚙️ Choix Techniques](#choix-techniques)
 
-# 👥 Membres du groupe par sprint
-<span id="membres-du-groupe-par-sprint"></span>
-**Sprint 1**
-
-| Membre   | Rôle       | Missions |
-| -------- | ---------- | -------- |
-| Tatiana  | PO         | -        |
-| Bertrand | SM         | -        |
-| Sheldon  | Technicien | -        |
-| Greg     | Technicien | -        |
-
-**Sprint 2**
-
-| Membre   | Rôle       | Missions |
-| -------- | ---------- | -------- |
-| Greg     | Technicien | -        |
-| Sheldon  | Technicien | -        |
-| Tatiana  | PO         | -        |
-| Bertrand | SM         | -        |
-
-# ⚙️ Choix techniques
-<span id="choix-techniques"></span>
-**Matériel**
-
-**Logiciel**
-
-# <ins>Installation de John-the-ripper<ins>
+- # <ins>Installation de John-the-ripper<ins>
 
 Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suivantes:
 
@@ -119,15 +82,34 @@ john hash.txt  pour finir
   
 
 
-
 (En cours d'écriture)
 
+- # [🧗Difficultés rencontrées](#difficultes-rencontrees)
+- # [💡 Solutions trouvées](#solutions-trouvees)
+- # [🚀 Améliorations possibles](#ameliorations-possibles)
 
-# 🧗 Difficultés rencontrées
-<span id="difficultes-rencontrees"></span>
 
-# 💡 Solutions trouvées
-<span id="solutions-trouvees"></span>
+**Objectifs finaux**
 
-# 🚀 Améliorations possibles
-<span id="ameliorations-possibles"></span>
+
+# 👥 Membres du groupe par sprint
+<span id="membres-du-groupe-par-sprint"></span>
+**Sprint 1**
+
+| Membre   | Rôle       | Missions |
+| -------- | ---------- | -------- |
+| Tatiana  | PO         | -        |
+| Bertrand | SM         | -        |
+| Sheldon  | Technicien | -        |
+| Greg     | Technicien | -        |
+
+**Sprint 2**
+
+| Membre   | Rôle       | Missions |
+| -------- | ---------- | -------- |
+| Greg     | Technicien | -        |
+| Sheldon  | Technicien | -        |
+| Tatiana  | PO         | -        |
+| Bertrand | SM         | -        |
+
+
