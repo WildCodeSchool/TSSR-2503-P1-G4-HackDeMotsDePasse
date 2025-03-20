@@ -3,6 +3,10 @@
 ## Sommaire 
 
 - [🎯 Présentation du projet](#presentation-du-projet)
+
+- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse de mot de passe sur un poste client. 
+Ces tests sont exécutés via des VM, une machine serveur et une client.
+
 - [📜 Introduction](#introduction)
 - [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
 - [⚙️ Choix Techniques](#choix-techniques)
