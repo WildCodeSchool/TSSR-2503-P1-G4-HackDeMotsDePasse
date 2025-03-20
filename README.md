@@ -101,8 +101,7 @@ Pour activer celui que nous voulons, nous ferons
 
 Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans le dossier où se trouve notre fichier zip
 
-   cd ..
-   cd ..
+   cd /
    pwd (pour voir où nous sommes)
    cd /home/wilder
 
