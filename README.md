@@ -99,7 +99,7 @@ Une fois dans le dossier en question, nous exécuterons la commande
 
 Rien ne s'affiche c'est pour cela que nous ferons la commande suivante
 
-Vérifier que le hash est bien dans le fichier avec: 
+Vérifier que le hash est bien dans le fichier  
 
   > cat hash.txt
 
