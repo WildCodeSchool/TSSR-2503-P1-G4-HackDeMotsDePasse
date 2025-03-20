@@ -97,15 +97,19 @@ Une fois dans le dossier en question, nous exécuterons la commande
 
   > john-the-ripper.zip2john (fichier.zip) > hash.txt
 
+Rien ne s'affiche c'est pour cela que nous ferons la commande suivante
+
 Vérifier que le hash est bien dans le fichier avec: 
 
   > cat hash.txt
+
+![Vérifier hash dans le fichier](https://github.com/user-attachments/assets/a4699f93-82d5-43c2-9afc-ea959f6b7ecf)
 
 et enfin, l'extraire avec
 
   > john hash.txt pour finir
   
-
+![Extraire et trouver le code](https://github.com/user-attachments/assets/202a10c1-bf8d-4034-98ac-7d7d5759a2d5)
 
 (En cours d'écriture)
 
