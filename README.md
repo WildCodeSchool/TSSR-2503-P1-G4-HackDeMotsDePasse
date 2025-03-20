@@ -55,50 +55,55 @@ Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)
 
 Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suivantes:
 
-   sudo snap install john-the-ripper
+  > sudo snap install john-the-ripper
 
 ![Installation John-the-ripper](https://github.com/user-attachments/assets/dd9ad91f-e5de-4211-9f60-ab61c652d132)
 
 Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
 
-  which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
+  > which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
 
 ![Which John-the-ripper](https://github.com/user-attachments/assets/8c335fb0-bedb-4e1f-aded-743b0c377e9a)
 
 
-  Se deplacer dans le dossier bin
+ Se deplacer dans le dossier bin
   
-  cd /snap/bin
+  > cd /snap/bin
+
+ et pour découvrir l'ensemble du contenu nous ferons 
+ 
+  > ls 
+
+et nous trouverons tous les modules john-the-ripper installés.
   
 ![Trouver John-the-ripper](https://github.com/user-attachments/assets/4ab7b878-1d51-4440-8fed-29050b8b8161)
  
-pour découvrir l'ensemble du contenu nous ferons "ls" dans le terminal et nous trouverons tous les modules john-the-ripper installés.
 
 Pour activer celui que nous voulons, nous ferons
 
-  ./john-the-ripper.zip2john
+  > ./john-the-ripper.zip2john
 
   ![Activer john2zip](https://github.com/user-attachments/assets/2a49402c-d8de-4e50-82fc-612a0f7596b7)
   
 Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans le dossier où se trouve notre fichier zip
 
-   cd /
-   pwd (pour voir où nous sommes)
-   cd /home/wilder
+  > cd /
+  > pwd (pour voir où nous sommes)
+  > cd /home/wilder
 
    ![Retour dossier fichier zip](https://github.com/user-attachments/assets/c3205b5d-48f3-478b-a759-98ca4a5af372)
 
 Une fois dans le dossier en question, nous exécuterons la commande
 
-john-the-ripper.zip2john (fichier.zip) > hash.txt
+  > john-the-ripper.zip2john (fichier.zip) > hash.txt
 
 Vérifier que le hash est bien dans le fichier avec: 
 
-cat hash.txt
+  > cat hash.txt
 
 et enfin, l'extraire avec
 
-john hash.txt pour finir
+  > john hash.txt pour finir
   
 
 
