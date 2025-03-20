@@ -8,7 +8,7 @@ Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels.
 
 - # [📜 Introduction](#introduction)
 
-- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse de mot de passe sur un poste client. 
+- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse de mots de passe sur un poste client. 
 Ces tests sont exécutés via des VM, une machine serveur et une client.
 
 - # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
