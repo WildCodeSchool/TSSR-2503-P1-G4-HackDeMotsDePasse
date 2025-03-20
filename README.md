@@ -20,7 +20,7 @@ Ces tests sont exécutés via des VM, une machine serveur et une client.
 <span id="presentation-du-projet"></span>
 **Sujet choisi**
 
- - John-the-ripper/ Hashcat
+ - Hack de fichiers Zip
  
 **Présentation**
 
@@ -75,10 +75,10 @@ Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| membre 1 | Technicien | -        |
-| membre 2 | Technicien | -        |
-| membre 3 | PO         | -        |
-| membre 4 | SM         | -        |
+| Greg     | Technicien | -        |
+| Sheldon  | Technicien | -        |
+| Tatiana  | PO         | -        |
+| Bertrand | SM         | -        |
 
 # ⚙️ Choix techniques
 <span id="choix-techniques"></span>
