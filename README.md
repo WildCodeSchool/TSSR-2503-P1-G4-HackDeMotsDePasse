@@ -57,14 +57,13 @@ Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suiva
 
   > sudo snap install john-the-ripper
 
-![Installation John-the-ripper](https://github.com/user-attachments/assets/dd9ad91f-e5de-4211-9f60-ab61c652d132)
+![Installation John-the-ripper](https://github.com/user-attachments/assets/9a812ebc-cedc-4e9a-8aa1-996e74e4f6f9)
 
 Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
 
   > which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
 
-![Which John-the-ripper](https://github.com/user-attachments/assets/8c335fb0-bedb-4e1f-aded-743b0c377e9a)
-
+![Which John-the-ripper](https://github.com/user-attachments/assets/cbb122d4-6d20-40d8-b1a2-76771b48aa51)
 
  Se deplacer dans le dossier bin
   
@@ -76,14 +75,14 @@ Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y ren
 
 et nous trouverons tous les modules john-the-ripper installés.
   
-![Trouver John-the-ripper](https://github.com/user-attachments/assets/4ab7b878-1d51-4440-8fed-29050b8b8161)
+![Trouver John-the-ripper](https://github.com/user-attachments/assets/eb3f5806-5731-4913-a2b1-850836f8fccc)
  
 
 Pour activer celui que nous voulons, nous ferons
 
   > ./john-the-ripper.zip2john
 
-  ![Activer john2zip](https://github.com/user-attachments/assets/2a49402c-d8de-4e50-82fc-612a0f7596b7)
+![Activer john2zip](https://github.com/user-attachments/assets/ec2e1363-c358-42b9-8921-e582952bb457)
   
 Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans le dossier où se trouve notre fichier zip
 
@@ -91,8 +90,8 @@ Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans
   > + pwd (pour voir où nous sommes)
   > + cd /home/wilder
 
-   ![Retour dossier fichier zip](https://github.com/user-attachments/assets/c3205b5d-48f3-478b-a759-98ca4a5af372)
-
+ ![Retour dossier fichier zip](https://github.com/user-attachments/assets/a191a7e7-6001-452f-9c20-5e16e8472751)
+ 
 Une fois dans le dossier en question, nous exécuterons la commande
 
   > john-the-ripper.zip2john (fichier.zip) > hash.txt
@@ -103,13 +102,14 @@ Vérifier que le hash est bien dans le fichier
 
   > cat hash.txt
 
-![Vérifier hash dans le fichier](https://github.com/user-attachments/assets/a4699f93-82d5-43c2-9afc-ea959f6b7ecf)
+![Vérifier hash dans le fichier](https://github.com/user-attachments/assets/1c389c1e-d4c8-4e28-8680-338d39ca4fb2)
 
 et enfin, l'extraire avec
 
   > john hash.txt pour finir
   
-![Extraire et trouver le code](https://github.com/user-attachments/assets/202a10c1-bf8d-4034-98ac-7d7d5759a2d5)
+![Extraire et trouver le code](https://github.com/user-attachments/assets/15130bc1-1ef3-4be0-8347-74b19ce52013)
+
 
 (En cours d'écriture)
 
