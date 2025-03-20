@@ -27,8 +27,15 @@ John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester
 Il est l'un des logiciels les plus populaires car il inclut une autodétection des fonctions de hachage utilisée pour stocker les mots de passe. (Fonction de hachage: une fonction mathématique qui brouille les données pour les rendre illisibles).
  
 
-### Comment peut-il faire?
+Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper) 
 
+
+- # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
+  
+- # [⚙️ Choix Techniques](#choix-techniques)
+
+- ### Pourquoi choisir John-the-ripper?
+  
 John-the-ripper à plusieurs modes d'action. Les plus fréquentes sont les méthodes:
   
 + simple (utilisation du nom utilisateur pour casser les mots de passe les plus simples)
@@ -40,11 +47,9 @@ Bien évidemment, plus un mot de passe est compliqué, plus sa recherche sera lo
 John-the-ripper peut casser des mots de passe avec différentes fonctions de hachage avec des algorithmes comme MD5, blowfish, Kerberos, AFS, et les LM hashes de Windows NT/2000/XP/2003. 
 On peut le complèter avec des modules additionnels pour qu'il puisse casser des mots de passe basés sur les hash MD4 ainsi que MySQL, LDAP, NTLM.
 
+Pour faire la liaison avec Hashcat, Zip2john permet d'extraire le hash que nous avons besoi pour hashcat
+
 Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper) 
-
-
-- # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
-- # [⚙️ Choix Techniques](#choix-techniques)
 
 - ## <ins>Installation de John-the-ripper<ins>
 
