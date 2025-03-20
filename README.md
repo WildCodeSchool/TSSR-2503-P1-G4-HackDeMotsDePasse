@@ -46,7 +46,7 @@ Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)
 - # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
 - # [⚙️ Choix Techniques](#choix-techniques)
 
-- # <ins>Installation de John-the-ripper<ins>
+- ## <ins>Installation de John-the-ripper<ins>
 
 Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suivantes:
 
