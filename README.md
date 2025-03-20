@@ -62,19 +62,29 @@ Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suiva
 Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
 
   which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
+
+  ![Trouver John-the-ripper](https://github.com/user-attachments/assets/4ab7b878-1d51-4440-8fed-29050b8b8161)
+
+  Se deplacer dans le dossier bin
+  
   cd /snap/bin
 
+ 
 pour découvrir l'ensemble du contenu nous ferons "ls" dans le terminal et nous trouverons tous les modules john-the-ripper installés.
 
 Pour activer celui que nous voulons, nous ferons
 
   ./john-the-ripper.zip2john
 
+  ![Activer john2zip](https://github.com/user-attachments/assets/2a49402c-d8de-4e50-82fc-612a0f7596b7)
+  
 Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans le dossier où se trouve notre fichier zip
 
    cd /
    pwd (pour voir où nous sommes)
    cd /home/wilder
+
+   ![Retour dossier fichier zip](https://github.com/user-attachments/assets/c3205b5d-48f3-478b-a759-98ca4a5af372)
 
 Une fois dans le dossier en question, nous exécuterons la commande
 
