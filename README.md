@@ -26,12 +26,12 @@ Ces tests sont exécutés via des VM, une machine serveur et une client.
 
 - # Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels.
 
+
   ## <ins>Présentation:<ins>
 
 Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse des mots de passe depuis un poste client. 
 Ces tests sont exécutés sur des VM et nous permettront de comparer les logiciels.
 
-## <ins>Introduction:<ins>
 
 ### Qu'est-ce que John-the-ripper?
 
