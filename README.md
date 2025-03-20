@@ -5,7 +5,6 @@
 - [🎯 Présentation du projet](#presentation-du-projet)
 
 
-
 - [📜 Introduction](#introduction)
 
 - Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse de mot de passe sur un poste client. 
@@ -21,20 +20,22 @@ Ces tests sont exécutés via des VM, une machine serveur et une client.
 <span id="presentation-du-projet"></span>
 **Sujet choisi**
 
+ - John-the-ripper/ Hashcat
+ 
 **Présentation**
 
 - # Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels.
 
-## <ins>Présentation:<ins>
+  ## <ins>Présentation:<ins>
 
-Le projet présenté a pour but d'utiliser le logiciel John-the-ripper afin de tester la robustesse de mot de passe sur un poste client. 
-Ces tests sont exécutés via des VM (Machines Virtuelles). Une machine serveur et une machine client.
+Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse des mots de passe depuis un poste client. 
+Ces tests sont exécutés sur des VM et nous permettront de comparer les logiciels.
 
 ## <ins>Introduction:<ins>
 
-### John-the-ripper c'est quoi?
+### Qu'est-ce que John-the-ripper?
 
-John-the-ripper est un logiciel de cassage de mot de passe utilisé, par exemple, pour tester la robustesse de mot de passe. Il a d'abord été développer pour tourner sous des systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes.
+John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse des mots de passe. Il a d'abord été développer pour tourner sous des systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes comme FreeBSD (A COMPLETER)
 Il est l'un des logiciels les plus populaires car il inclut une autodétection des fonctions de hachage utilisée pour stocker les mots de passe. (Fonction de hachage: une fonction mathématique qui brouille les données pour les rendre illisibles).
  
 
@@ -65,10 +66,10 @@ Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper)
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| membre 1 | PO         | -        |
-| membre 2 | SM         | -        |
-| membre 3 | Technicien | -        |
-| membre 4 | Technicien | -        |
+| Tatiana  | PO         | -        |
+| Bertrand | SM         | -        |
+| Sheldon  | Technicien | -        |
+| Greg     | Technicien | -        |
 
 **Sprint 2**
 
