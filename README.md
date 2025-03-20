@@ -57,6 +57,8 @@ Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suiva
 
    sudo snap install john-the-ripper
 
+![Installation John-the-ripper](https://github.com/user-attachments/assets/dd9ad91f-e5de-4211-9f60-ab61c652d132)
+
 Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
 
   which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
@@ -84,7 +86,7 @@ cat hash.txt
 
 et enfin, l'extraire avec
 
-john hash.txt  pour finir
+john hash.txt pour finir
   
 
 
