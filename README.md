@@ -87,9 +87,9 @@ Pour activer celui que nous voulons, nous ferons
   
 Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans le dossier où se trouve notre fichier zip
 
-  > cd /
-  > pwd (pour voir où nous sommes)
-  > cd /home/wilder
+  > + cd /
+  > + pwd (pour voir où nous sommes)
+  > + cd /home/wilder
 
    ![Retour dossier fichier zip](https://github.com/user-attachments/assets/c3205b5d-48f3-478b-a759-98ca4a5af372)
 
