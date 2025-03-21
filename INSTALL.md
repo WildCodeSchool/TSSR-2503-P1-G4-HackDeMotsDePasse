@@ -72,5 +72,12 @@ Pour activer celui que nous voulons, nous ferons
 
 Activer john2zip
 
+
+### Hashcat
+
+Via le terminal nous allons utiliser la commande suivante : 
+
+     sudo apt install hashcat
+
 # 4. FAQ
 <span id="faq"></span>
