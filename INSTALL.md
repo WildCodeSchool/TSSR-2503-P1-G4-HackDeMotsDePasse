@@ -40,5 +40,37 @@ Les fichiers sont maintenant encrypter grace a 7zip sur SERVWIN01.
 # 3. Installation sur le client
 <span id="installation-sur-le-client"></span>
 
+Pour la machine client UBU01, nous avons besoin d'installer le logicielle _John_the_ripper_
+
+Via le terminal nous allons utiliser les commandes suivantes:
+
+    sudo snap install john-the-ripper
+
+Installation John-the-ripper
+
+Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
+
+    which john-the-ripper (d'autres touches comme "find" ... sont possibles)
+
+Which John-the-ripper
+
+Se deplacer dans le dossier bin
+
+    cd /snap/bin
+
+et pour découvrir l'ensemble du contenu nous ferons
+
+    ls
+
+et nous trouverons tous les modules john-the-ripper installés.
+
+Trouver John-the-ripper
+
+Pour activer celui que nous voulons, nous ferons
+
+    ./john-the-ripper.zip2john
+
+Activer john2zip
+
 # 4. FAQ
 <span id="faq"></span>
