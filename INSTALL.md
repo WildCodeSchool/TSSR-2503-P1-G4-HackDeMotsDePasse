@@ -21,6 +21,22 @@ Nous configurons également l'ip de UBU01 de "intnet" avec cette adresse ip : **
 # 2. Installation sur le serveur
 <span id="installation-sur-le-serveur"></span>
 
+Sur SERVWIN01, nous allons commencer par télecharger le logiciel **7zip**. Nous le téléchargeons via ce lien : _https://www.7-zip.org/_ et l'installons sur la machine.
+
+Nous pouvons maintenant compresser des fichier et les encrypter. 
+
+Nous allons créer deux fichier : _secret_defense1.txt_ et _secret_defense2.txt_ dans le repertoire C://.
+
+Puis nous allons les compresser et les encrypter avec 7zip : 
+
+- Clique droit sur le fichier puis choisir _"add to archive"_
+- Ne rien modifier des différentes options
+- Choisir le mot de passe dans la case correspondant. Ici nous allons choisir **Defcon2**
+- Cocher la case "encrypte file name"
+ 
+Les fichiers sont maintenant encrypter grace a 7zip sur SERVWIN01.
+
+
 # 3. Installation sur le client
 <span id="installation-sur-le-client"></span>
 
