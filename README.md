@@ -57,7 +57,7 @@ Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suiva
 
   > sudo snap install john-the-ripper
 
-![Installation John-the-ripper](Ressource/Installation John-the-ripper.png)
+![Installation John-the-ripper](Ressource/Installation_John-the-ripper.png)
 
 Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
 
