@@ -136,9 +136,9 @@ et enfin, l'extraire avec
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| Greg     | Technicien | -        |
-| Sheldon  | Technicien | -        |
-| Tatiana  | PO         | -        |
-| Bertrand | SM         | -        |
+|  Greg    | Technicien | -        |
+| Tatiana  | Technicien | -        |
+| Bertrand | PO         | -        |
+| Sheldon  | SM         | -        |
 
 
