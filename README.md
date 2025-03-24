@@ -57,7 +57,7 @@ Sur une machine Ubuntu, via le terminal nous allons utiliser les commandes suiva
 
   > sudo snap install john-the-ripper
 
-![Installation John-the-ripper](https://github.com/user-attachments/assets/9a812ebc-cedc-4e9a-8aa1-996e74e4f6f9)
+![Installation John-the-ripper](Ressources/InstallationJohn-the-ripper.png)
 
 Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y rendre
 
@@ -136,9 +136,9 @@ et enfin, l'extraire avec
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| Greg     | Technicien | -        |
-| Sheldon  | Technicien | -        |
-| Tatiana  | PO         | -        |
-| Bertrand | SM         | -        |
+|  Greg    | Technicien | -        |
+| Tatiana  | Technicien | -        |
+| Bertrand | PO         | -        |
+| Sheldon  | SM         | -        |
 
 
