@@ -29,7 +29,7 @@ Ces tests seront exécutés sur des VM qui nous permettront de comparer les logi
 <ins>Nb:<ins> Plus le mot de passe est complexe, plus sa recherche sera longue.
 
 John-the-ripper peut casser des mots de passe avec différentes fonctions de hachage avec des algorithmes comme MD5, blowfish, Kerberos, AFS (Ce sont différents algorythmes). On peut le complèter avec des modules additionnels pour qu'il puisse casser des mots de passe basés sur les hash MD4 ainsi que MySQL, LDAP.
-Pour plus d'informations: [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper#)
+Pour plus d'informations: [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper#)  [John-the-ripper](https://www.openwall.com/john/doc/)
 
 
 A REVOIR
