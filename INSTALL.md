@@ -47,11 +47,12 @@ Pour la machine client UBU01, nous avons besoin d'installer le logiciel _John_th
 Via le terminal nous allons utiliser les commandes suivantes pour installer le logiciel :
 
     sudo snap install john-the-ripper
-
+    
+![Installation John-the-ripper](Ressources/Installation_John-the-ripper.png)
 Ensuite nous allons chercher l'endroit où se situe notre logiciel et nous y rendre a l'aide de cette commande (d'autres touches comme "find" ... sont possibles) :
 
     which john-the-ripper 
-
+![Which John-the-ripper](Ressources/Which_John-the-ripper.png)
 Maintenant nous allons nous déplacer dans le dossier bin :
 
     cd /snap/bin
@@ -62,13 +63,13 @@ Et pour découvrir l'ensemble du contenu nous ferons
 
 et nous trouverons tous les modules john-the-ripper installés.
 
-Trouver John-the-ripper
+![Trouver John-the-ripper](Ressources/Trouver_John-the-ripper.png)
 
 Pour activer celui que nous voulons, nous ferons
 
     ./john-the-ripper.zip2john
 
-Activer john2zip
+![Activer john2zip](Ressources/Activer_john2zip.png)
 
 
 ### Hashcat
