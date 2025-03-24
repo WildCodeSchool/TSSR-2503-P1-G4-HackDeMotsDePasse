@@ -1,30 +1,242 @@
-## Sommaire
+# Sommaire
 
 1. [Utilisation de base](#utilisation-de-base)
 2. [Utilisation avancée](#utilisation-avancee)
 3. [FAQ](#faq)
 
-# 1. Utilisation de base
-<span id="utilisation-de-base"></span>
 
-## Utilisation John-the-ripper
-  > john-the-ripper.zip2john (fichier.zip) > hash.txt
+# Guide d’utilisation
 
-Rien ne s'affiche c'est pour cela que nous ferons la commande suivante
+Ce guide explique comment utiliser **John-the-Ripper** *(Utilisation de base et Utilisation avancée pour les options)* et **Hashcat** *(Utilisation avancée)* pour casser les mots de passe de fichiers ZIP. Ce guide suppose que vous ayez déjà configuré l’environnement et installé les outils, comme décrit dans [install.md](install.md).
 
-Vérifier que le hash est bien dans le fichier  
+### Prérequis
 
-  > cat hash.txt
 
-![Vérifier hash dans le fichier](https://github.com/user-attachments/assets/1c389c1e-d4c8-4e28-8680-338d39ca4fb2)
+Avant de commencer, assurez-vous que :
 
-et enfin, l'extraire avec
+- Le fichier ZIP à tester (par exemple, `fichier.zip`) est accessible sur le client Ubuntu dans le dossier partagé avec le serveur, comme décrit dans [install.md](install.md). 
 
-  > john hash.txt pour finir
-  
-![Extraire et trouver le code](https://github.com/user-attachments/assets/15130bc1-1ef3-4be0-8347-74b19ce52013)
-# 2. Utilisation avancée
-<span id="utilisation-avancee"></span>
 
-# 3. FAQ
-<span id="faq"></span>
+
+
+
+ # 1. [Utilisation de base](#utilisation-de-base)
+
+ ## John the ripper
+
+L'utilisation de base fonctionnera bien pour des mots de passe simples.
+
+Avec les commandes décrites ci-dessous John-The-Ripper procédera de manière automatique et lancera 3 modes d'attaque en suivant : "Single Crack" sur la base des informations accessibles sur le fichier ZIP, "Wordlist" une liste de mots de passe est incluse avec John The Ripper, et enfin une attaque "Incremental" (force brute) pour tester toutes les combinaisons possibles. *(Pour ce dernier mode d'attaque, en fonction de la complexité du mot de passe, la durée nécessaire peut-être 
+extrêmement longue. Dans ce cas il est conseillé de se reporter à la partie Utilisation Avancée de ce guide.)*
+
+- Tout d'abord copiez le fichier zip (disponible dans le dossier partagé avec le serveur ) vers votre dossier personnel.
+
+
+
+A l'aide du terminal déplacez-vous dans le dossier d'installation :
+
+>   cd /snap/bin
+
+Exécutez le fichier comme ci-dessous pour activer l'outils nécessaire à l'extraction des informations contenus dans le fichier:
+
+> ./john-the-ripper.zip2john
+
+Ensuite il est nécessaire d'extraire ces informations (hash) et de les stocker dans un fichier au format .txt. 
+
+*(Dans les commandes vous remplacerez fichier.zip par le nom de votre propre fichier .zip et hash.txt par le nom de votre propre fichier.txt.)*
+
+
+>john-the-ripper.zip2john fichier.zip > hash.txt
+
+Vérifiez que les informations sont bien disponibles dans le fichier au format.txt :
+
+ > cat hash.txt
+
+
+Ensuite pour lancer une attaque de mot de passe du fichier.zip entrez la commande:
+
+>john hash.txt
+
+*(remplacez  hash.txt par le nom de votre fichier.txt)*
+
+Le message à l'écran vous indique que la recherche du mot de passe a commencé et vous montre également les limites de format de mots de passe qu'il sera en mesure de traiter.*(voir Utilisation avancée pour plus de détails)*
+.
+Vous pouvez appuyer sur la touche "entrée" du clavier pour suivre l'avancement de la recherche. 
+
+Quand le mot de passe a été trouvé il apparait à l'écran.
+
+Vous pouvez également le retrouver en entrant la commande:
+
+>john --show hash.txt
+
+*(Remplacer "hash.txt" par le nom de votre fichier.txt=)*
+
+Si John The Ripper ne parvient pas à trouver le mot de passe ou si l'attaque "Incremental" est trop longue vous pouvez envisager les solutions décrites dans la partie Utilisation avancée de ce guide.
+
+
+ # 2. [Utilisation avancée](#utilisation-avancee)
+
+## [John The ripper](https://www.openwall.com/john/)
+
+Des options sont disponibles pour optimiser la recherche de mot de passe de fichiers ZIP en modifiant la commande de base:
+
+>*john hash.txt*
+
+
+- Pour augmenter la puissance utilisée par John The Ripper vous pouvez allouer le nombre coeurs utilisés *(Remplacez "n" par le nombre de coeurs souhaité)*
+
+>john --fork=n --format=PKZIP hash.txt
+
+- Si vous souhaitez faire une recherche de mot de passe contenant des caractères spéciaux, ajoutez les options suivantes à la commande:
+
+> john --encoding=UTF8 --format=PKZIP hash.txt
+
+Il est à noter qu'une limitation existe  suivant les charactères utilisés dans le mot de passe recherchés: 21 caractères pour UTF-8 ou 63 pour ASCII. 
+
+- Vous pouvez choisir une "Wordlist" personnalisée en format .txt, tous les mots contenus dans la liste doivent êtres les uns en dessous des autres.
+
+> john --wordlist=/chemin/vers/mawordlist.txt
+
+- John The Ripper peut également casser les mots de passe pour d'autres format d'archives en suivant le même mode opérationnel.
+
+Pour les fichiers .rar par exemple, le format de hash nécessite d'être extrait par un autre outils disponible avec la version installée de John The Ripper: 
+
+> john-the-ripper.rar2john fichier.rar > hash_rar.txt.
+
+*(Remplacez "fichier.rar" et ".txt" par les noms de vos fichiers.)*
+
+et ensuite lancer l'attaque:
+
+>john-the-ripper.rar2john fichier.rar >hash_rar.txt.
+
+John The Riper permet de s'attaquer à de nombreuse solutions de chiffrement, pour en savoir plus vous pouvez consulter le [site officiel](https://openwall.info/wiki/).
+
+
+## [Hashcat](https://hashcat.net/hashcat/)
+
+
+
+Pour déchiffrer les mots de passe de fichiers .zip avec Hashcat, il faut au préalable utiliser les ressources de John THe Ripper pour extraire les données qui permettront de lancer l'attaque avec Hashcat. Dans le cas présent, les 2 logiciels sont complémentaires.
+
+- Pour récupérer le hash du fichier .zip utilisez le même procédé que celui décrit dans l'utilisation de [John The Ripper](#john-the-ripper)
+
+- Ensuite procédez comme dans l'exemple suivant en modifiant le format obtenu dans le fichier.txt : *(Remplacez par le nom de votre fichier.txt)* 
+
+
+- Affichez le contenu du fichier
+
+>cat hash.txt
+
+Vous obtiendrai un sortie ressemblant à celle ci-dessous. Pour que le fichier soit utilisable par hashcat il faut retirer le préfixe et le suffixe de ce hash --> vous conserverai uniquement la partie du hash incluse entre le premier et le dernier délimiteur indiqués par le symbole \$.
+Les symboles \$ doivent êtres inclus dans le fichier.txt (comme les éléments en gras ci-dessous)
+
+- Hash.txt avant modification
+
+>fichier.zip/test.txt:**\$pkzip\$ 1120291ef8ed8c9c026829f8edd9619940983e26db002967fb9a11f694a1c8be3781c1711b9ba30026a37fd2696bb288c7a239cd2fc1$/pkzip$**:test.txt:fichier.zip::fichier.zip
+
+- Après modification le hash devra avoir ce format :
+
+>**\$pkzip\$ 1120291ef8ed8c9c026829f8edd9619940983e26db002967fb9a11f694a1c8be3781c1711b9ba30026a37fd2696bb288c7a239cd2fc1$/pkzip$**
+
+- Modifiez hash.txt *(remplacer par le nom de votre fichier)*
+
+>echo "\$pkzip\$ 1120291ef8ed8c9c026829f8edd9619940983e26db002967fb9a11f694a1c8be3781c1711b9ba30026a37fd2696bb288c7a239cd2fc1$/pkzip$" > hash.txt
+
+
+- Cette étape permet d'identifier le type de hash contenu dans le fichier et de déterminer le mode qu'utilisera hashcat:
+
+\$pkzip2\$ → Mode 17200 *(Pour les fichiers ZIP chiffrés au format zipcrypto)*
+
+\$zip2$ → Mode 13600 *( Pour les fichiers ZIP chiffrés au format AES)*.
+
+## Utilisation de Hashcat
+
+Maintenant que le hash est convertit dans un format exploitable par hascat il est possible de procéder aux différents types d'attaques.
+
+### Attaques par dictionnaire : 
+Hascat permet d'avoir recours à des listes de mots de passe ("Wordlist") cependant elles ne sont pas incluses par défaut. En ligne il est possible de trouver des listes gratuites, comme par exemple sur [RockYou](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) ou [CrackStation](https://crackstation.net/) .
+
+
+Pour réaliser une attaque par dictionnaire en utilisant le fichier .txt modifié, la commmande dépendra du type de hash récupéré précédemment.
+
+- Exemple de commande pour un format de hash \$pkzip2\$ (zipcrypto)
+
+>hashcat -m 17200 -a 0 hash.txt wordlist.txt
+
+- Exemple de commande pour un format de hash \$zip2$ (AES)
+
+>hashcat -m 17200 -a 0 hash.txt wordlist.txt
+
+- Il est possible d'utilier plusieurs listes en même temps :
+
+>hashcat -m 17200 -a 0 hash.txt liste1.txt liste2.txt
+
+- -a : défini le mode d'attaque
+
+-  -a 0 : Attaque par dictionnaire
+
+
+
+Lorsque hashcat aura trouvé le mot de passe il apparaitra à l'écran. 
+
+
+
+
+
+
+### Attaques par force brute
+
+Ce type d'attaque pour but de tester toute les combinaisons posibles, la durée de l'attaque dépendra de la complexité du mot de passe et des ressources matérielles allouées.
+
+Par défaut hashcat utilisera
+les ressources en GPU sinon le CPU.
+
+La aussi il vous sera nécéssaire de récupérer le hash dans un format compatible comme nous l'avons vu [plus haut](#hashcat) pour utiliser le [mode adapté](#hashcat) pour votre fichier .zip.
+
+- Exemple de commande minimale avec hashcat
+
+>hashcat -m 13600 -a 3 hash.txt
+
+- *-m 13600 : représente le mode utilisé pour un fichier chiffré AES*
+
+- *-a 3 : Mode force brute*
+
+
+Pour choisir les caractéristique de votre attaque, hascat utilise des masques.
+
+- Exemple de commande avec un masque :
+
+>hashcat -m 13600 -a 3 hash.text ?l?d?l?d
+
+Ici le masque indique une recherche sur 4 caractères avec lettres minuscules et des chiffres.  
+
+Voici un exemple des types de caractères qu'il est possible d'inclure dans les recherches :
+
+-  ?l --> lettres minuscules
+
+- ?u --> lettres majuscules
+
+- ?d --> chiffres de 0 à 9
+
+- ?s --> Symboles 
+
+Ici nous avons procédé à une attaque par masque, d'autres modes sont disponible :
+- Attaque par combinaison
+- Attaque hybride dictionnaire+masque
+- Attaque hybride masque + dictionnaire
+- Attaque par empreinte (moins courant)
+
+Pour plus de détails rendez-vous sur le [sites officiel](https://hashcat.net/wiki/)
+
+ 
+
+ 3. [FAQ](#faq)
+ 
+ # 1. Utilisation de base
+ <span id="utilisation-de-base"></span>
+
+ # 2. Utilisation avancée
+ <span id="utilisation-avancee"></span>
+ 
+ # 3. FAQ
+ <span id="faq"></span>
