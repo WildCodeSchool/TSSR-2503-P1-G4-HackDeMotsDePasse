@@ -16,7 +16,7 @@ Ces tests sont exécutés sur des VM et nous permettront de comparer les logicie
 ### <ins>I/Qu'est-ce que John-the-ripper?<ins>
 
  John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse ceux-ci. Il a d'abord été développer pour tourner sous des 
- systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes. Il est l'un des logiciels les plus populaires,e utilisée pour stocker les mots de passe.
+ systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes. Il est l'un des logiciels les plus populaires.
 
 ### <ins>II/Qu'est-ce que Hashcat?<ins>
  
