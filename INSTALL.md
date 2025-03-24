@@ -105,8 +105,10 @@ Pour être sur que nous soyons a jour, nous allons utiliser cette commande :
 
     hashcat --version 
 
+![capture écran version hashcat](Ressources/version_hashcat.png)
 
-    
+Félicitation ! Vous avez installer avec succés le logiciel Hashcat. Pour de plus amples informations vous pouvez consulter l'aide en tapant cette commande dans votre terminal : 
+
     hashcat --help
 
 
