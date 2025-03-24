@@ -2,41 +2,37 @@
 
 ## Sommaire 
 
-- # [📜 Introduction](#introduction)
+ # [📜 Introduction](#introduction)
 
-- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse de mots de passe sur un poste client. 
+- Utilisation des logiciels John-the-ripper et hashcat afin de tester la robustesse de mots de passe sur un poste client. 
 Ces tests sont exécutés via des VM, une machine serveur et une client.
 
-- # [🎯 Présentation du projet](#presentation-du-projet)
+ # [🎯 Présentation du projet](#presentation-du-projet)
 
-Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels.
-
-## **<ins>Sujet choisi**<ins>
-
- - Hack de fichiers Zip
- 
-  ## <ins>Présentation John-the-ripper et Hashcat:<ins>
-
-Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse des mots de passe depuis un poste client. 
+- Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels.
+- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse des mots de passe depuis un poste client. 
 Ces tests sont exécutés sur des VM et nous permettront de comparer les logiciels.
 
+   ## <ins>Présentation John-the-ripper et Hashcat<ins>
 
-### Qu'est-ce que John-the-ripper?
+### <ins>Qu'est-ce que John-the-ripper?<ins>
 
 John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse des mots de passe. Il a d'abord été développer pour tourner sous des systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes comme FreeBSD (A COMPLETER)
 Il est l'un des logiciels les plus populaires car il inclut une autodétection des fonctions de hachage utilisée pour stocker les mots de passe. (Fonction de hachage: une fonction mathématique qui brouille les données pour les rendre illisibles).
+
+### <ins>Qu'est-ce que Hashcat?<ins>
  
 
 Source [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper) 
 
 
-- # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
+ # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
   
-- # [⚙️ Choix Techniques](#choix-techniques)
+ # [⚙️ Choix Techniques](#choix-techniques)
 
-- ### Pourquoi choisir John-the-ripper?
+ #### Pourquoi choisir John-the-ripper?
   
-John-the-ripper à plusieurs modes d'action. Les plus fréquentes sont les méthodes:
+- John-the-ripper à plusieurs modes d'action. Les plus fréquentes sont les méthodes:
   
 + simple (utilisation du nom utilisateur pour casser les mots de passe les plus simples)
 + Par dictionnaire (utilise une liste de mots en utilisant aussi le nom utilisateur)
@@ -113,9 +109,9 @@ et enfin, l'extraire avec
 
 (En cours d'écriture)
 
-- # [🧗Difficultés rencontrées](#difficultes-rencontrees)
-- # [💡 Solutions trouvées](#solutions-trouvees)
-- # [🚀 Améliorations possibles](#ameliorations-possibles)
+ # [🧗Difficultés rencontrées](#difficultes-rencontrees)
+ # [💡 Solutions trouvées](#solutions-trouvees)
+ # [🚀 Améliorations possibles](#ameliorations-possibles)
 
 
 **Objectifs finaux**
@@ -130,15 +126,13 @@ et enfin, l'extraire avec
 | Tatiana  | PO         | -        |
 | Bertrand | SM         | -        |
 | Sheldon  | Technicien | -        |
-| Greg     | Technicien | -        |
+
 
 **Sprint 2**
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-|  Greg    | Technicien | -        |
-| Tatiana  | Technicien | -        |
 | Bertrand | PO         | -        |
 | Sheldon  | SM         | -        |
-
+| Tatiana  | Technicien | -        |
 
