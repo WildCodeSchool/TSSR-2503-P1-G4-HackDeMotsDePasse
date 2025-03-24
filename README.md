@@ -100,7 +100,7 @@ Vérifier que le hash est bien dans le fichier
 
   > cat hash.txt
 
-![Vérifier hash dans le fichier](https://github.com/user-attachments/assets/1c389c1e-d4c8-4e28-8680-338d39ca4fb2)
+![Vérifier hash dans le fichier](Ressources/Vérification_hash.png)
 
 et enfin, l'extraire avec
 
