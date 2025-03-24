@@ -40,7 +40,9 @@ Les fichiers sont maintenant encrypter grace à 7zip sur SERVWIN01.
 # 3. Installation sur le client
 <span id="installation-sur-le-client"></span>
 
-Pour la machine client UBU01, nous avons besoin d'installer le logiciel _John_the_ripper_
+Pour la machine client UBU01, nous avons besoin d'installer le logiciel _John_the_ripper_ ainsi que _hashcat_. 
+
+### John-the-ripper
 
 Via le terminal nous allons utiliser les commandes suivantes:
 
