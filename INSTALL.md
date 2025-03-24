@@ -44,23 +44,19 @@ Pour la machine client UBU01, nous avons besoin d'installer le logiciel _John_th
 
 ### John-the-ripper
 
-Via le terminal nous allons utiliser les commandes suivantes:
+Via le terminal nous allons utiliser les commandes suivantes pour installer le logiciel :
 
     sudo snap install john-the-ripper
 
-Installation John-the-ripper
+Ensuite nous allons chercher l'endroit où se situe notre logiciel et nous y rendre a l'aide de cette commande (d'autres touches comme "find" ... sont possibles) :
 
-Ensuite nous allons chercher l'endroit où se situe notre logiciel et nous y rendre
+    which john-the-ripper 
 
-    which john-the-ripper (d'autres touches comme "find" ... sont possibles)
-
-Which John-the-ripper
-
-Se déplacer dans le dossier bin
+Maintenant nous allons nous déplacer dans le dossier bin :
 
     cd /snap/bin
 
-et pour découvrir l'ensemble du contenu nous ferons
+Et pour découvrir l'ensemble du contenu nous ferons
 
     ls
 
