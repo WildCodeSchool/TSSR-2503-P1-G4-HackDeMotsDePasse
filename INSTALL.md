@@ -75,9 +75,42 @@ Activer john2zip
 
 ### Hashcat
 
-Via le terminal nous allons utiliser la commande suivante : 
+Via le terminal nous allons utiliser la commande suivante pour télécharger le logiciel HashCat: 
 
-     sudo apt install hashcat
+    sudo apt install hashcat
+       
+Cette commande va également installer les configurations système requise (en anglais _requiered dependencies_).
+
+Maintenant nous allons voir pour télecharger la dernière version de notre logiciel en commencant par les outils de developpement :
+
+    sudo apt install -y build-essential git
+
+Ensuite nous allons cloner le Hashcat Git repository : 
+
+    git clone https://github.com/hashcat/hashcat.git
+
+Une fois installé, nous allons nous deplacer dans le dossier hashcat : 
+
+    cd hashcat
+
+Compiler le code présent : 
+
+    make 
+
+Maintenant nous pouvons installer hashcat avec la dernière version :
+    
+    sudo make install
+
+Pour être sur que nous soyons a jour, nous allons utiliser cette commande : 
+
+    hashcat --version 
+
+
+    
+    hashcat --help
+
+
+    
 
 # 4. FAQ
 <span id="faq"></span>
