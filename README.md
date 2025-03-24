@@ -106,10 +106,9 @@ et enfin, l'extraire avec
 
   > john hash.txt pour finir
   
-![Extraire et trouver le code](https://github.com/user-attachments/assets/15130bc1-1ef3-4be0-8347-74b19ce52013)
+![Extraire et trouver le code](Ressources/Trouver_le_code.png)
 
 
-(En cours d'écriture)
 
  # [🧗Difficultés rencontrées](#difficultes-rencontrees)
  # [💡 Solutions trouvées](#solutions-trouvees)
