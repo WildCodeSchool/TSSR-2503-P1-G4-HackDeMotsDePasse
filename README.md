@@ -73,7 +73,7 @@ Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y ren
 
 et nous trouverons tous les modules john-the-ripper installés.
   
-![Trouver John-the-ripper](https://github.com/user-attachments/assets/eb3f5806-5731-4913-a2b1-850836f8fccc)
+![Trouver John-the-ripper](Ressources/Trouver_John-the-ripper.png)
  
 
 Pour activer celui que nous voulons, nous ferons
