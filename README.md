@@ -61,7 +61,7 @@ Ensuite nous allons chercher l'endroit où si situe notre logiciel et nous y ren
 
   > which john-the-ripper (d'autres touches comme  "find" ... sont possibles)
 
-![Which John-the-ripper](https://github.com/user-attachments/assets/cbb122d4-6d20-40d8-b1a2-76771b48aa51)
+![Which John-the-ripper](Ressources/Which_John-the-ripper.png)
 
  Se deplacer dans le dossier bin
   
