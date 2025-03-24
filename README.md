@@ -69,9 +69,11 @@ Mise à disposition de deux machines virtuelles:
 Une machine serveur windows 2022:
  -  Configuration d'un réseau interne afin d'être relié à la machine client (UBU01).
  -  Création des fichiers.zip sur cette VM
-Une machine chient sur une distribution ubuntu:
+   
+Une machine client sur une distribution ubuntu:
  -  Configuration d'un réseau interne afin de se connecter au serveur Windows (SRVWIN01).
  -  Installation, test et exécution des logiciels sur la VM client.
+   
 Les attaques:
  - Depuis VM client (UBU01). Récupération des fichiers .zip sur le serveur (SRVWIN01)
  - Exécution des logiciels depuis la VM client. 
