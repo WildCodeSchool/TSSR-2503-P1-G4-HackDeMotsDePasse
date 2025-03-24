@@ -80,7 +80,7 @@ Pour activer celui que nous voulons, nous ferons
 
   > ./john-the-ripper.zip2john
 
-![Activer john2zip](https://github.com/user-attachments/assets/ec2e1363-c358-42b9-8921-e582952bb457)
+![Activer john2zip](Ressources/Activer_john2zip.png)
   
 Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans le dossier où se trouve notre fichier zip
 
