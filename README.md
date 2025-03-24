@@ -88,7 +88,7 @@ Ensuite, nous allons extraire le hash et pour cela, nous allons nous rendre dans
   > + pwd (pour voir où nous sommes)
   > + cd /home/wilder
 
- ![Retour dossier fichier zip](https://github.com/user-attachments/assets/a191a7e7-6001-452f-9c20-5e16e8472751)
+ ![Retour dossier fichier zip](Ressources/Retour_dossier_fichier.zip.png)
  
 Une fois dans le dossier en question, nous exécuterons la commande
 
