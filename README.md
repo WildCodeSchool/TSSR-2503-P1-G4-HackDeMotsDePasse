@@ -1,26 +1,22 @@
 ![logo de la Wild Code SChool en exemple](Ressources/logo_WCS.jpg)
 
-## Sommaire 
 
 # [📜 Introduction](#introduction)
 
 - Utilisation des logiciels John-the-ripper et hashcat afin de tester la robustesse de mots de passe sur un poste client. 
-Ces tests sont exécutés via des VM, une machine serveur et une client.
+Ces tests sont exécutés sur des VM, une machine serveur et une client.
 
 # [🎯 Présentation du projet](#presentation-du-projet)
 
-- Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels.
-- Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse des mots de passe depuis un poste client. 
+- Hacker le mot de passe d'un fichier zip à l'aide de deux logiciels: Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de tester la robustesse des mots de passe depuis un poste client. 
 Ces tests sont exécutés sur des VM et nous permettront de comparer les logiciels.
 
 ## <ins>Présentation John-the-ripper et Hashcat<ins>
 
 ### <ins>I/Qu'est-ce que John-the-ripper?<ins>
 
- John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse des mots de passe. Il a d'abord été développer pour tourner sous des 
- systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes comme FreeBSD (A COMPLETER)
- Il est l'un des logiciels les plus populaires car il inclut une autodétection des fonctions de hachage utilisée pour stocker les mots de passe. (Fonction de 
- hachage: une fonction mathématique qui brouille les données pour les rendre illisibles).
+ John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse ceux-ci. Il a d'abord été développer pour tourner sous des 
+ systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes. Il est l'un des logiciels les plus populaires,e utilisée pour stocker les mots de passe.
 
 ### <ins>II/Qu'est-ce que Hashcat?<ins>
  
@@ -110,8 +106,18 @@ et enfin, l'extraire avec
 
 
 
- # [🧗Difficultés rencontrées](#difficultes-rencontrees)
- # [💡 Solutions trouvées](#solutions-trouvees)
+ # [🧗Difficultés rencontrées](#difficultes-rencontrees)[💡Solutions trouvées](#solutions-trouvees)
+ 
+
+| [🧗Difficultés rencontrées](#difficultes-rencontrees)|[💡Solutions trouvées](#solutions-trouvees)|  
+| -----------------------------------| -----------------------------------|
+| Installation du logiciel avec Apt install ne fonctionne pas.| Installation du logiciel avec Snap install.|
+| Trouver le logiciel et l'activier.| Recherches menées via des articles et vidéos de démonstration.|
+| Compréhension d'utilisation logiciel et sa prise en main.| De nombreuses recherches et de tests pour enfin réussir à comprendre et l'utliser.|
+| Récupérer un fichier .Zip d'un serveur à une VM client.| Mise en réseau des machines ainsi qu'une copie du fichier concerné.|
+
+💡 La meilleure solution dans tous ces cas de figures a été de travailler par groupe de deux, afin d'avancer ensemble et de partager nos avancées. 
+
  # [🚀 Améliorations possibles](#ameliorations-possibles)
 
 
@@ -124,10 +130,10 @@ et enfin, l'extraire avec
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| Tatiana  | PO         | -        |
-| Bertrand | SM         | -        |
-| Sheldon  | Technicien | -        |
-| Greg     | Technicien | -        |
+| Tatiana  | PO         | Installer et comprendre le fonctionnement du logiciel John-the-ripper/ Commencer la documentation 'README.md'|
+| Bertrand | SM         | Installer et comprendre le fonctionnement du logiciel John-the-ripper/ Commencer la documentation 'User_guide.md'|
+| Sheldon  | Technicien | Installation des machines virtuelles et les mettre en réseaux/ Commencer la documentation 'Install.md'|
+| Greg     | Technicien | Installation des machines virtuelles et les mettre en réseaux.|
 
 **Sprint 2**
 
