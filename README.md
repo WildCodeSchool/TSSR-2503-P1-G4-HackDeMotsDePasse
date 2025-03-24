@@ -3,7 +3,7 @@
 
 # [📜 Introduction](#introduction)
 
-Vous êtes de ces personnes qui oublient ou perdent leurs mots de passe 🔑? ALors ce qui suit est fait pour vous! 
+Vous êtes de ces personnes qui oublient ou perdent leurs mots de passe 🔑 ou simplement curieuses?! ALors ce qui suit est fait pour vous! 
 Voici deux logiciels qui vous permettront de récupérer des mots de passe sur différents types fichiers.
 
 # [🎯 Présentation du projet](#presentation-du-projet)
