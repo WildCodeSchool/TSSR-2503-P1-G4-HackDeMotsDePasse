@@ -49,10 +49,12 @@ Via le terminal nous allons utiliser les commandes suivantes pour installer le l
     sudo snap install john-the-ripper
     
 ![Installation John-the-ripper](Ressources/Installation_John-the-ripper.png)
+
 Ensuite nous allons chercher l'endroit où se situe notre logiciel et nous y rendre a l'aide de cette commande (d'autres touches comme "find" ... sont possibles) :
 
     which john-the-ripper 
 ![Which John-the-ripper](Ressources/Which_John-the-ripper.png)
+
 Maintenant nous allons nous déplacer dans le dossier bin :
 
     cd /snap/bin
