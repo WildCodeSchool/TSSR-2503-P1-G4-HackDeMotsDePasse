@@ -58,9 +58,9 @@ Pour faire la liaison avec Hashcat, Zip2john permet d'extraire le hash dont nous
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| Bertrand | PO         | -        |
-| Sheldon  | SM         | -        |
-| Tatiana  | Technicien | -        |
+| Bertrand | PO         | Recherche sur utilisation et installation de hashcat/ Continuer la documentation 'User_guide'/ Tests de démos Logiciels|
+| Sheldon  | SM         | Recherche sur utilisation et installation de hashcat/ Continuer la documentation 'Install.md'/ Commencer le PowerPoint|
+| Tatiana  | Technicien | Recherche sur utilisation et installation de hashcat/ Continuer la documentation 'README.md/ Relecture de l'ensemble des documents.|
   
  # [⚙️ Choix Techniques](#choix-techniques)
 
