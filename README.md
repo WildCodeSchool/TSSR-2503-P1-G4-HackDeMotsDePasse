@@ -15,9 +15,11 @@ Ces tests seront exécutés sur des VM qui nous permettront de comparer les logi
 
 ### <ins>I/Qu'est-ce que John-the-ripper?<ins>
 
- John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse ceux-ci. Il a d'abord été développer pour tourner sous des 
- systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes. Il est l'un des logiciels les plus populaires.
- 
+John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse ceux-ci. Il a d'abord été développer pour tourner sous des 
+systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes. Il est l'un des logiciels les plus populaires.
+John-the-ripper peut casser des mots de passe avec différentes fonctions de hachage avec des algorithmes comme MD5, blowfish, Kerberos, AFS (Ce sont différents algorythmes). On peut le complèter avec des modules additionnels pour qu'il puisse casser des mots de passe basés sur les hash MD4 ainsi que MySQL, LDAP.
+Pour plus d'informations: [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper#)  [John-the-ripper](https://www.openwall.com/john/doc/)
+
 ### <ins>Pourquoi choisir John-the-ripper?<ins>
   
  John-the-ripper à plusieurs modes d'action. Les plus fréquentes sont les méthodes:
@@ -27,10 +29,6 @@ Ces tests seront exécutés sur des VM qui nous permettront de comparer les logi
 + Attaque Incrémental il essayera toutes les combinaisons possibles
 
 <ins>Nb:<ins> Plus le mot de passe est complexe, plus sa recherche sera longue.
-
-John-the-ripper peut casser des mots de passe avec différentes fonctions de hachage avec des algorithmes comme MD5, blowfish, Kerberos, AFS (Ce sont différents algorythmes). On peut le complèter avec des modules additionnels pour qu'il puisse casser des mots de passe basés sur les hash MD4 ainsi que MySQL, LDAP.
-Pour plus d'informations: [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper#)  [John-the-ripper](https://www.openwall.com/john/doc/)
-
 
 A REVOIR
 Pour faire la liaison avec Hashcat, Zip2john permet d'extraire le hash dont nous avons besoin pour hashcat
