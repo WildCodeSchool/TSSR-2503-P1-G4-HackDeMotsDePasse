@@ -142,7 +142,7 @@ Maintenant que le hash est convertit dans un format exploitable par hascat il es
 
 Vous obtiendrez une sortie sous cette forme:
 
-![alt text](image-1.png)
+![ varification hash hashcat](Ressources/vérification_hash_hashcat.png)
 
 
 Vous voyez ici les modes à employer en fonction du hash extrait de votre fichier.zip
