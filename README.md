@@ -50,6 +50,7 @@ Plusieurs types d'attaques sont possibles avec Hashcat:
 + Attaque hybride: C'est un mix entre l'attaque par dictionnaire et par force brute simple. Il utilisera une liste de mots de passe pour la tester en y rajoutant des variantes (majuscules, chiffres..)
 + Attaque combiantoire: 2 dictionnaires différents sont combinés pour tester une grande variété de mots de passe. Par exemple, la liste la plus longue des prénoms avec la listes la plus longue des mots le plus utlisés. Hashcat s'e servira des deux listes, les associera pour combiner les plus de mots de passe possibles.
 
+> Pour plus d'informations: [Hashcat](https://www.jedha.co/formation-cybersecurite/hashcat-l-outil-gratuit-pour-tester-les-mots-de-passe)
 
  # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
 **Sprint 1**
@@ -75,7 +76,7 @@ Plusieurs types d'attaques sont possibles avec Hashcat:
   
  # [⚙️ Choix Techniques](#choix-techniques)
 
-Mise à disposition de deux machines virtuelles:
+Mise à disposition de deux machines virtuelles.
 
 Une machine serveur windows 2022:
  -  Configuration d'un réseau interne afin d'être relié à la machine client (UBU01).
@@ -95,7 +96,7 @@ Les attaques:
 |  [🧗Difficultés rencontrées](#difficultes-rencontrees)|[💡Solutions trouvées](#solutions-trouvees)|  
 | --------------------------------------- | --------------------------------------- |
 | Installation du logiciel avec Apt install ne fonctionne pas.| Installation du logiciel avec Snap install.|
-| Trouver le logiciel et l'activier.| Recherches menées via des articles et vidéos de démonstration.|
+| Trouver le logiciel et l'activer.| Recherches menées via des articles et vidéos de démonstration.|
 | Compréhension d'utilisation logiciel et sa prise en main.| De nombreuses recherches et de tests pour enfin réussir à comprendre et l'utliser.|
 | Récupérer un fichier .Zip d'un serveur à une VM client.| Mise en réseau des machines ainsi qu'une copie du fichier concerné.|
 | Matériel pas assez puissant pour effectuer certains tests| Choix d'opter pour des tests réalisables et efficaces.|
