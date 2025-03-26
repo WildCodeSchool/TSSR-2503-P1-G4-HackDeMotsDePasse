@@ -30,6 +30,7 @@ Nous allons créer deux fichiers : _secret_defense1.txt_ et _secret_defense2.txt
 Puis nous allons les compresser et les chiffrer avec 7zip : 
 
 - Clique droit sur le fichier puis choisir _"add to archive"_
+- Cocher l'option _synchronise files_
 - Ne rien modifier des différentes options
 - Choisir le mot de passe dans la case correspondant. Ici nous allons choisir **1234**
 - Cocher la case "encrypte file name"
