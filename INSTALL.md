@@ -23,18 +23,18 @@ Nous configurons également l'ip de UBU01 de "intnet" avec cette adresse ip : **
 
 Sur SERVWIN01, nous allons commencer par télecharger le logiciel **7zip**. Nous le téléchargeons via ce lien : _https://www.7-zip.org/_ et l'installons sur la machine.
 
-Nous pouvons maintenant compresser des fichiers et les encrypter. 
+Nous pouvons maintenant compresser des fichiers et les chiffrer. 
 
 Nous allons créer deux fichiers : _secret_defense1.txt_ et _secret_defense2.txt_ dans le repertoire C://.
 
-Puis nous allons les compresser et les encrypter avec 7zip : 
+Puis nous allons les compresser et les chiffrer avec 7zip : 
 
 - Clique droit sur le fichier puis choisir _"add to archive"_
 - Ne rien modifier des différentes options
 - Choisir le mot de passe dans la case correspondant. Ici nous allons choisir **1234**
 - Cocher la case "encrypte file name"
  
-Les fichiers sont maintenant encrypter grâce à 7zip sur SERVWIN01.
+Les fichiers sont maintenant chiffré grâce à 7zip sur SERVWIN01.
 
 
 # 3. Installation sur le client
