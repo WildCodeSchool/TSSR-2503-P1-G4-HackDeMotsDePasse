@@ -25,7 +25,8 @@ John-the-ripper peut casser des mots de passe avec différentes fonctions de hac
 
 ### <ins>Pourquoi choisir John-the-ripper?<ins>
   
- John-the-ripper à plusieurs modes d'actions. Les plus fréquentes sont les méthodes:
+L'une des raisons qui vous ferez choisir John-the-ripper est la facilité de sa prise en main et de sa compréhension d'utilisation. Il a un mode automatique du lancement de ses attaques. C'est à dire qu'il lancera de lui meême ses différentes attaques sans que vous ne fassiez quoi que ce soit.
+John-the-ripper à plusieurs modes d'actions. Les plus fréquentes sont les méthodes:
   
 + Attaque simple: Utilisation du nom utilisateur pour casser les mots de passe les plus simples.
 + Attaque Par dictionnaire: Utilise une liste de mots en utilisant aussi le nom utilisateur.
