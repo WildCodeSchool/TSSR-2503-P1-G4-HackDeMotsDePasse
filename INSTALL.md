@@ -118,3 +118,14 @@ Félicitations ! Vous avez installé avec succés le logiciel Hashcat. Pour de p
 
 # 4. FAQ
 <span id="faq"></span>
+
+
+### **Ces logiciels sont il disponible gratuitement ?**
+
+- Oui, ces logiciels sont **Open Sources**.
+
+
+### **Doit on bien connaître le milieu de la cybersécurité pour pouvoir les utiliser ?**
+
+- Hashcat nécessite effectivement quelques connaissances et est peu ergonomique. Mais c'est le plus puissant des deux.
+  John quant à lui a une approche plus "simple", permet d'être plus autonome grâce a un mode "automatique" mais a une puissance moindre. 
