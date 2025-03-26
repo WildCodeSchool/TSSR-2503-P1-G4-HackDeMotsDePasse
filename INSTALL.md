@@ -31,7 +31,7 @@ Puis nous allons les compresser et les encrypter avec 7zip :
 
 - Clique droit sur le fichier puis choisir _"add to archive"_
 - Ne rien modifier des différentes options
-- Choisir le mot de passe dans la case correspondant. Ici nous allons choisir **Defcon2**
+- Choisir le mot de passe dans la case correspondant. Ici nous allons choisir **1234**
 - Cocher la case "encrypte file name"
  
 Les fichiers sont maintenant encrypter grâce à 7zip sur SERVWIN01.
