@@ -6,10 +6,12 @@
 Vous êtes de ces personnes qui oublient ou perdent leurs mots de passe 🔑 ou simplement curieuses?! ALors ce qui suit est fait pour vous! 
 Voici deux logiciels qui vous permettront de récupérer des mots de passe sur différents types fichiers.
 
+
 # [🎯 Présentation du projet](#presentation-du-projet)
 
-Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de récupérer un mot de passe sur des types de fichiers différents (sur cette présentation, les fichiers seront des .zip) mais ils peuvent aussi contribué à tester la robustesse des mots de passe.
+Le projet présenté a pour but d'utiliser les logiciels John-the-ripper et hashcat afin de récupérer un mot de passe sur des types de fichiers différents (sur cette présentation, les fichiers seront des .zip) mais ils peuvent aussi contribué à tester la robustesse de mots de passe.
 Ces tests seront exécutés sur des VM qui nous permettront de comparer les logiciels.
+
   
 ## <ins>Présentation John-the-ripper et Hashcat<ins>
 
@@ -17,25 +19,25 @@ Ces tests seront exécutés sur des VM qui nous permettront de comparer les logi
 
 John-the-ripper est un logiciel de cassage de mots de passe utilisé pour tester la robustesse ceux-ci. Il a d'abord été développer pour tourner sous des 
 systèmes dérivés d'UNIX mais le programme fonctionne aujourd'hui sous d'autres plateformes. Il est l'un des logiciels les plus populaires.
-John-the-ripper peut casser des mots de passe avec différentes fonctions de hachage avec des algorithmes comme MD5, blowfish, Kerberos, AFS (Ce sont différents algorythmes). On peut le complèter avec des modules additionnels pour qu'il puisse casser des mots de passe basés sur les hash MD4 ainsi que MySQL, LDAP.
-Pour plus d'informations: [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper#)  [John-the-ripper](https://www.openwall.com/john/doc/)
+John-the-ripper peut casser des mots de passe avec différentes fonctions de hachage avec des algorithmes comme MD5, blowfish, Kerberos, AFS. On peut le complèter avec des modules additionnels pour qu'il puisse casser des mots de passe basés sur les hash MD4 ainsi que MySQL, LDAP.
+> Pour plus d'informations: [Wikipédia](https://fr.wikipedia.org/wiki/John_the_Ripper#)  [John-the-ripper](https://www.openwall.com/john/doc/)
+
 
 ### <ins>Pourquoi choisir John-the-ripper?<ins>
   
- John-the-ripper à plusieurs modes d'action. Les plus fréquentes sont les méthodes:
+ John-the-ripper à plusieurs modes d'actions. Les plus fréquentes sont les méthodes:
   
-+ Attaque simple (utilisation du nom utilisateur pour casser les mots de passe les plus simples)
-+ Attaque Par dictionnaire (utilise une liste de mots en utilisant aussi le nom utilisateur)
-+ Attaque Incrémental il essayera toutes les combinaisons possibles
++ Attaque simple: Utilisation du nom utilisateur pour casser les mots de passe les plus simples.
++ Attaque Par dictionnaire: Utilise une liste de mots en utilisant aussi le nom utilisateur.
++ Attaque Incrémental: Il essayera toutes les combinaisons possibles.
 
-<ins>Nb:<ins> Plus le mot de passe est complexe, plus sa recherche sera longue.
+> NB: Plus le mot de passe est complexe, plus sa recherche sera longue.
 
-A REVOIR
-Pour faire la liaison avec Hashcat, Zip2john permet d'extraire le hash dont nous avons besoin pour hashcat
 
 ### <ins>II/Qu'est-ce que Hashcat?<ins>
+
  
-Hashcat est un logiciel de récupération de mot de passe. Il disposait d'une base de code propriétaire jusqu'en 2015, mais part lasuite a été publier en tant que logiciel open source. Tout comme John-the-ripper, il est disponible sur différentes plateformes. Il dispose d'un énorme avantage par rapport à ses concurrents car il exploite la puissance des cartes graphiques (GPU) pour accélérer le processus et lui permet de retourver les mots de passe bien plus rapidement qu'avec un simple processeur comme le fait John-the-ripper.
+Hashcat est un logiciel de récupération de mot de passe. Il disposait d'une base de code propriétaire jusqu'en 2015, mais part la suite a été publier en tant que logiciel open source. Tout comme John-the-ripper, il est disponible sur différentes plateformes. Il dispose d'un énorme avantage par rapport à ses concurrents car il exploite la puissance des cartes graphiques (GPU) pour accélérer le processus et lui permettre de retourver des mots de passe bien plus rapidement qu'avec un simple processeur comme le fait John-the-ripper.
 
 ### <ins>Pourquoi choisir Hashcat?<ins>
 
