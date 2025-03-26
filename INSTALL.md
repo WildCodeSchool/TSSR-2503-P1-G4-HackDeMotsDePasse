@@ -87,7 +87,7 @@ Maintenant nous allons voir pour télecharger la dernière version de notre logi
 
     sudo apt install -y build-essential git
 
-Ensuite nous allons cloner le Hashcat Git repository : 
+(Optionnel) Ensuite nous allons cloner le Hashcat Git repository : 
 
     git clone https://github.com/hashcat/hashcat.git
 
