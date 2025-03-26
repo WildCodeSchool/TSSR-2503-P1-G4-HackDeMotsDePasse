@@ -5,12 +5,12 @@
 3. [Installation sur le client](#installation-sur-le-client)
 4. [FAQ](#faq)
 
-# 1. Prérequis techniques
+# 1. Prérequis technique
 <span id="prerequis-techniques"></span>
 
 Pour ce projet, nous avons besoin de deux VM :
 - Une VM serveur Windows 2022 : **SERVWIN01**
-- Une VM clien Ubuntu : **UBU01**
+- Une VM client Ubuntu : **UBU01**
 
 Nous devons ensuite les mettre en réseau. Pour ce faire nous allons rajouter à chacune une deuxième carte réseau en "réseau interne" avec le même nom, ici "intnet".
 
