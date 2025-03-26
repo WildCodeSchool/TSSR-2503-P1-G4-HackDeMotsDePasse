@@ -90,7 +90,7 @@ Ensuite nous allons cloner le Hashcat Git repository :
 
     git clone https://github.com/hashcat/hashcat.git
 
-Une fois installé, nous allons nous deplacer dans le dossier hashcat : 
+Une fois installé, nous allons nous déplacer dans le dossier hashcat : 
 
     cd hashcat
 
@@ -98,17 +98,17 @@ Compiler le code présent :
 
     make 
 
-Maintenant nous pouvons installer hashcat avec la dernière version :
+Maintenant, nous pouvons installer hashcat avec la dernière version :
     
     sudo make install
 
-Pour être sur que nous soyons a jour, nous allons utiliser cette commande : 
+Pour être sûr que nous soyons à jour, nous allons utiliser cette commande : 
 
     hashcat --version 
 
 ![capture écran version hashcat](Ressources/version_hashcat.png)
 
-Félicitation ! Vous avez installer avec succés le logiciel Hashcat. Pour de plus amples informations vous pouvez consulter l'aide en tapant cette commande dans votre terminal : 
+Félicitations ! Vous avez installé avec succés le logiciel Hashcat. Pour de plus amples informations, vous pouvez consulter l'aide en tapant cette commande dans votre terminal : 
 
     hashcat --help
 
