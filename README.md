@@ -89,18 +89,16 @@ Les attaques:
  # [🧗Difficultés rencontrées](#difficultes-rencontrees)[💡Solutions trouvées](#solutions-trouvees)
  
 
-| [🧗Difficultés rencontrées](#difficultes-rencontrees)|[💡Solutions trouvées](#solutions-trouvees)|  
-| -----------------------------------| -----------------------------------|
+|  [🧗Difficultés rencontrées](#difficultes-rencontrees)|[💡Solutions trouvées](#solutions-trouvees)|  
+| --------------------------------------- | --------------------------------------- |
 | Installation du logiciel avec Apt install ne fonctionne pas.| Installation du logiciel avec Snap install.|
 | Trouver le logiciel et l'activier.| Recherches menées via des articles et vidéos de démonstration.|
 | Compréhension d'utilisation logiciel et sa prise en main.| De nombreuses recherches et de tests pour enfin réussir à comprendre et l'utliser.|
 | Récupérer un fichier .Zip d'un serveur à une VM client.| Mise en réseau des machines ainsi qu'une copie du fichier concerné.|
+| Matériel pas assez puissant pour effectuer certains tests| Choix d'opter pour des tests réalisables et efficaces.|
+
 
 💡 La meilleure solution dans tous ces cas de figures a été de travailler par groupe de deux, afin d'avancer ensemble et de partager nos avancées. 
 
- # [🚀 Améliorations possibles](#ameliorations-possibles)
-
-
-**Objectifs finaux**
 
 
