@@ -35,7 +35,17 @@ Pour faire la liaison avec Hashcat, Zip2john permet d'extraire le hash dont nous
 
 ### <ins>II/Qu'est-ce que Hashcat?<ins>
  
+Hashcat est un logiciel de récupération de mot de passe. Il disposait d'une base de code propriétaire jusqu'en 2015, mais part lasuite a été publier en tant que logiciel open source. Tout comme John-the-ripper, il est disponible sur différentes plateformes. Il dispose d'un énorme avantage par rapport à ses concurrents car il exploite la puissance des cartes graphiques (GPU) pour accélérer le processus et lui permet de retourver les mots de passe bien plus rapidement qu'avec un simple processeur comme le fait John-the-ripper.
 
+### <ins>Pourquoi choisir Hashcat?<ins>
+
+Plusieurs types d'attaques sont possibles avec Hashcat:
+
++ Attaque par force brute "simple": Attaque efficace mais très lente même en utilisant la puissance du GPU car il va tester **toutes** les combinaisons de caractères possible jusqu'à trouver la bonne.
++ Attaque par dictionnaire: Attaque qui semble être la plus rapide. Le loggiciel teste des mots de passe issus d'une liste prédéfinie (comme Rockyou.txt que l'on peut retourver chez John-the-ripper) et voir s'il y a une correspondance. Méthode qui peut être redoutablement efficace face aux mots de passe les plus utilisés.
++ Attaque par masque: Cette attaque est idéale **si** l'on connaît par partie du mot de passe à cracker. Hashcat testera les différentes possibilités de mots de passe en se basant sur les caractéristiques entrées.
++ Attaque hybride: C'est un mix entre l'attaque par dictionnaire et par force brute simple. Il utilisera une liste de mots de passe pour la tester en y rajoutant des variantes (majuscules, chiffres..)
++ Attaque combiantoire: 2 dictionnaires différents sont combinés pour tester une grande variété de mots de passe. Par exemple, la liste la plus longue des prénoms avec la listes la plus longue des mots le plus utlisés. Hashcat s'e servira des deux listes, les associera pour combiner les plus de mots de passe possibles.
 
 
  # [👥 Membres du groupe par sprint](#membres-du-groupe-par-sprint)
