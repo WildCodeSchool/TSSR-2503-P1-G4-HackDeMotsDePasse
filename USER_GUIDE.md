@@ -62,7 +62,8 @@ Le message à l'écran vous indique que la recherche du mot de passe a commencé
 .
 Vous pouvez appuyer sur la touche "Entrée" du clavier pour suivre l'avancement de la recherche. 
 
-Quand le mot de passe a été trouvé il apparait à l'écran.
+- Quand le mot de passe a été trouvé il apparait à l'écran.
+
 
 Vous pouvez également le retrouver en entrant la commande:
 
@@ -70,7 +71,16 @@ Vous pouvez également le retrouver en entrant la commande:
 
 *(Remplacer "hash.txt" par le nom de votre fichier.txt)*
 
+- Ajoutez la permission en éxécution sur votre fichier .zip :
+
+> chmod u+x fichier.zip
+
+
+- Déverouillez votre fichier .zip avec le code : vous pouvez maintenant accéder au dossier qui contient votre ficher.zip.
+
+
 Si John-The-Ripper ne parvient pas à trouver le mot de passe ou si l'attaque "Incremental" est trop longue, vous pouvez envisager les solutions décrites dans la partie Utilisation avancée de ce guide.
+
 
 
  # 2. [Utilisation avancée](#utilisation-avancee)
@@ -167,9 +177,14 @@ Pour réaliser une attaque par dictionnaire en utilisant le fichier .txt modifi�
 
 
 
-Lorsque hashcat aura trouvé le mot de passe il apparaitra à l'écran. 
+  Lorsque hashcat aura trouvé le mot de passe il apparaitra à l'écran. 
+
+- Ajoutez la permission en éxécution sur votre fichier .zip :
+
+> chmod u+x fichier.zip
 
 
+- Déverouillez votre fichier .zip avec le code : vous pouvez maintenant accéder au dossier qui contient votre ficher.zip.
 
 
 
@@ -214,6 +229,16 @@ Ici nous avons procédé à une attaque par masque, d'autres modes sont disponib
 - Attaque hybride dictionnaire + masque
 - Attaque hybride masque + dictionnaire
 - Attaque par empreinte (moins courant)
+
+  Lorsque hashcat aura trouvé le mot de passe il apparaitra à l'écran.
+
+- Ajoutez la permission en éxécution sur votre fichier .zip :
+
+> chmod u+x fichier.zip
+
+
+- Déverouillez votre fichier .zip avec le code : vous pouvez maintenant accéder au dossier qui contient votre ficher.zip.
+
 
 Pour plus de détails rendez-vous sur le [sites officiel](https://hashcat.net/wiki/)
 
