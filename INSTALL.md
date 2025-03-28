@@ -35,7 +35,7 @@ Puis nous allons les compresser et les chiffrer avec 7zip :
 - Choisir le mot de passe dans la case correspondant. Ici nous allons choisir **1234**
 - Cocher la case "encrypte file name"
  
-Les fichiers sont maintenant chiffré grâce à 7zip sur SERVWIN01.
+Les fichiers sont maintenant chiffrés grâce à 7zip sur SERVWIN01.
 
 
 # 3. Installation sur le client
@@ -60,7 +60,7 @@ Déplacement dans /snap/bin
 
     cd /snap/bin
 
-regarder dans /snap/bin.
+Regarder dans /snap/bin.
 
     ls
 
@@ -77,7 +77,7 @@ Activer le module
 
 ### Hashcat
 
-Via le terminal nous allons utiliser la commande suivante pour télécharger le logiciel HashCat: 
+Via le terminal, nous allons utiliser la commande suivante pour télécharger le logiciel HashCat: 
 
     sudo apt install hashcat
        
@@ -87,7 +87,7 @@ Maintenant nous allons voir pour télecharger la dernière version de notre logi
 
     sudo apt install -y build-essential git
 
-(Optionnel) Ensuite nous allons cloner le Hashcat Git repository : 
+(Optionnel) Ensuite, nous allons cloner le Hashcat Git repository : 
 
     git clone https://github.com/hashcat/hashcat.git
 
@@ -120,22 +120,22 @@ Félicitations ! Vous avez installé avec succés le logiciel Hashcat. Pour de p
 <span id="faq"></span>
 
 
-### **Ces logiciels sont il disponible gratuitement ?**
+### **Ces logiciels sont ils disponibles gratuitement ?**
 
 - Oui, ces logiciels sont **Open Sources**.
 
 
-### **Doit on bien connaître le milieu de la cybersécurité pour pouvoir les utiliser ?**
+### **Doit-on bien connaître le milieu de la cybersécurité pour pouvoir les utiliser ?**
 
 - Hashcat nécessite effectivement quelques connaissances et est peu ergonomique. Mais c'est le plus puissant des deux.
-  John quant à lui a une approche plus "simple", permet d'être plus autonome grâce a un mode "automatique" mais a une puissance moindre.
+  John quant à lui a une approche plus "simple", permet d'être plus autonome grâce à un mode "automatique" mais a une puissance moindre.
 
 
-### Ces logiciels ont ils besoin de beaucoup d'espace mémoire ?
+### Ces logiciels ont-ils besoin de beaucoup d'espace mémoire ?
 
-- Non, ce sont des outil relativement _léger_.
+- Non, ce sont des outils relativement _léger_.
 
 
-### Est il légal de les utiliser ?
+### Est-il légal de les utiliser ?
 
-- Oui si ils sont utilisés avec l'accord de la personne qui détient les fichiers. Il est cependant interdit de les utiliser sans le consentement d'un utilisateur. 
+- Oui s'ils sont utilisés avec l'accord de la personne qui détient les fichiers. Il est cependant interdit de les utiliser sans le consentement d'un utilisateur. 
