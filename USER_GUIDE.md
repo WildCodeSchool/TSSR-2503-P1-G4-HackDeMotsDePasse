@@ -20,9 +20,18 @@ Avant de commencer, assurez-vous que :
 
 
 
- # 1. [Utilisation de base](#utilisation-de-base)
+ # 2. [Utilisation avancée](#utilisation-avancee)
 
- ## John-The-Ripper
+
+
+ 
+
+ 3. [FAQ](#faq)
+ 
+ # 1. Utilisation de base
+ <span id="utilisation-de-base"></span>
+
+  ## John-The-Ripper
 
 L'utilisation de base fonctionnera bien pour des mots de passe simples.
 
@@ -83,7 +92,8 @@ Si John-The-Ripper ne parvient pas à trouver le mot de passe ou si l'attaque "I
 
 
 
- # 2. [Utilisation avancée](#utilisation-avancee)
+ # 2. Utilisation avancée
+ <span id="utilisation-avancee"></span>
 
 ## [John-The-Ripper](https://www.openwall.com/john/)
 
@@ -244,15 +254,5 @@ Pour plus de détails rendez-vous sur le [sites officiel](https://hashcat.net/wi
 
 
 
- 
-
- 3. [FAQ](#faq)
- 
- # 1. Utilisation de base
- <span id="utilisation-de-base"></span>
-
- # 2. Utilisation avancée
- <span id="utilisation-avancee"></span>
- 
  # 3. FAQ
  <span id="faq"></span>
