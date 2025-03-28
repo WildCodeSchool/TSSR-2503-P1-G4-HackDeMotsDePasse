@@ -128,4 +128,14 @@ Félicitations ! Vous avez installé avec succés le logiciel Hashcat. Pour de p
 ### **Doit on bien connaître le milieu de la cybersécurité pour pouvoir les utiliser ?**
 
 - Hashcat nécessite effectivement quelques connaissances et est peu ergonomique. Mais c'est le plus puissant des deux.
-  John quant à lui a une approche plus "simple", permet d'être plus autonome grâce a un mode "automatique" mais a une puissance moindre. 
+  John quant à lui a une approche plus "simple", permet d'être plus autonome grâce a un mode "automatique" mais a une puissance moindre.
+
+
+### Ces logiciels ont ils besoin de beaucoup d'espace mémoire ?
+
+- Non, ce sont des outil relativement _léger_.
+
+
+### Est il légal de les utiliser ?
+
+- Oui si ils sont utilisés avec l'accord de la personne qui détient les fichiers. Il est cependant interdit de les utiliser sans le consentement d'un utilisateur. 
