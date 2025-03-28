@@ -18,15 +18,7 @@ Avant de commencer, assurez-vous que :
 
 
 
-
-
- # 2. [Utilisation avancée](#utilisation-avancee)
-
-
-
  
-
- 3. [FAQ](#faq)
  
  # 1. Utilisation de base
  <span id="utilisation-de-base"></span>
