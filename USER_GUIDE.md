@@ -248,3 +248,34 @@ Pour plus de détails rendez-vous sur le [sites officiel](https://hashcat.net/wi
 
  # 3. FAQ
  <span id="faq"></span>
+
+
+
+### Est-ce légal?
+
+Le pratiques abordées dans ce projet sont réservées à un cadre éthique. Il est impératif d'avoir la propriété des fichiers testés ou le consentement du propriétaire des fichiers.
+
+### Pourquoi mon fichier .txt ne contient aucune donnée après avoir éxécuté cette commande? 
+> john-the-ripper.zip2john fichier.zip > hash.txt
+
+Assurez-vous que le fichier est bien protégé par un mot de passe sinon john-the-ripper ne génère pas de hash.
+
+### Comment savoir quel mode d'attaque est en cours avec John-The-Ripper?
+
+Appyuez sur "Entrée", cela affichera l'état actuel et les tentatives en cours.  
+
+### Que faire si l'attaque incrémentale de John-The-Ripper prend trop de temps?
+
+Interrompez l'attaque avec "Ctrl + c"  et passez à une attaque avancée ou utlisez Hashcat.
+
+### Pourquoi Hashcat ne reconnait pas le hash fourni par John-The-Ripper
+
+Asurrez-vous d'avoir enlevé correctement le suffixe et le préfixe du hash extrait par John-The-Ripper. 
+Certains formats de hash ne fonctionnent pas avec hashacat ou parfois il est nécessaire d'adapter le mode d'attaque. Reportez vous au [guide des hash fourni par Hashcat ](https://hashcat.net/wiki/doku.php?id=example_hashes).
+
+### Pourquoi le mot de passe trouvé ne déverrouille pas mon fichier .zip?
+
+Vérifiez que vous avez bien les droits d'exécution sur le fichier ou éxécutez cette commande en remplaçant le nom de votre fichier:
+
+>chmod u+x fichier.zip
+
